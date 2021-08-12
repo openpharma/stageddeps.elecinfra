@@ -2,9 +2,10 @@
 upstream_repos:
 
 downstream_repos:
-- repo: maximilian_oliver.mordig/stageddeps.electricity
-  host: https://code.roche.com
+  openpharma/stageddeps.electricity:
+    repo: openpharma/stageddeps.electricity
+    host: https://github.com
 
 current_repo:
-  repo: maximilian_oliver.mordig/stageddeps.elecinfra
-  host: https://code.roche.com
+  repo: openpharma/stageddeps.elecinfra
+  host: https://github.com
